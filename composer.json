@@ -1,0 +1,33 @@
+{
+	"name": "agopaul/zf-linguo",
+	"description": "Zend Framework 2 Module that provides multi-language routes capability",
+	"type": "library",
+	"keywords": [
+		"i18n",
+		"module",
+		"zf2"
+	],
+	"homepage": "https://www.github.com/agopaul/zf-linguo",
+	"authors": [
+		{
+			"name": "Paolo Agostinetto",
+			"email": "paolo@redokun.com",
+			"homepage": "https://redokun.com/"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+
+	"autoload": {
+		"psr-0": {
+			"Linguo\\": "src/"
+		}
+	},
+	"require-dev": {
+		"zendframework/zend-mvc": "*",
+		"zendframework/zend-i18n": "*",
+		"zendframework/zend-test": "*",
+		"zendframework/zend-config": "*"
+	}
+}
