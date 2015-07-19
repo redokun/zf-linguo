@@ -22,7 +22,8 @@
 	"autoload": {
 		"psr-0": {
 			"Linguo\\": "src/"
-		}
+		},
+		"classmap": ["./Module.php"]
 	},
 	"require-dev": {
 		"zendframework/zend-mvc": "*",
